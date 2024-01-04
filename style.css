@@ -1,0 +1,137 @@
+*{
+  overflow: hidden;
+}
+body{
+ background-image: linear-gradient(to top,red, blue, rgb(102, 11, 11)) ;
+ width: 100%;
+ height: 100vh;
+}
+#box{
+ /* margin-top: 100px; */
+ width: 500px;
+ position: relative;
+ top: 300px;
+ box-shadow: 1px 1px 3px 1px gray;
+ animation: box 5s ;
+}
+#input-button{
+  display: flex;
+}
+
+#num{
+width: 300px;
+height: 50px;
+padding-left: 20px;
+}
+
+#button{
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: rgb(5, 5, 80);
+  }
+
+
+
+@keyframes box{
+  0%{
+transform: translateY(-500px);
+ }
+ 100%{
+  transform: translateY(10px);
+ }
+}
+#grade{
+  position: relative;
+  top: 270px;
+  animation: grade 5s;
+}
+@keyframes grade {
+  0%{
+    transform: translateX(-500px);
+    }
+    100%{
+      transform: translateX(10px);
+    }
+}
+#flow {
+  position: relative;
+  left: 100px;
+  animation: flow 20s infinite;
+  width: 200px;
+}
+@keyframes flow {
+  0%{
+    transform: translateY(800px);
+    scale: 1.9;
+    }
+    100%{
+      transform: translateY(-500px);
+      scale: 0.7;
+    }
+}#flow1 {
+  position: relative;
+  left: 700px;
+  animation: flow1 20s infinite;
+  animation-delay: 2s;
+  width: 200px;
+}
+@keyframes flow1 {
+  0%{
+    transform: translateY(800px);
+    scale: 1.9;
+    }
+    100%{
+      transform: translateY(-500px);
+      scale: 0.7;
+    }
+}#flow2 {
+  position: relative;
+  animation-delay: 5s;
+  left: 500px;
+  animation: flow2 25s infinite;
+  width: 200px;
+}
+@keyframes flow2 {
+  0%{
+    transform: translateY(800px);
+    scale: 1.9;
+    }
+    100%{
+      transform: translateY(-500px);
+      scale: 0.7;
+    }
+}#flow3 {
+  position: relative;
+  left: 200px;
+  animation: flow3 28s infinite;
+  animation-delay: 7s;
+  width: 200px;
+}
+@keyframes flow3 {
+  0%{
+    transform: translateY(800px);
+    scale: 1.9;
+    }
+    100%{
+      transform: translateY(-500px);
+      scale: 0.7;
+    }
+}
+#flow4 {
+  position: relative;
+  left: 900px;
+  animation: flow4 29s infinite;
+  animation-delay: 10s;
+  width: 200px;
+}
+@keyframes flow4 {
+  0%{
+    transform: translateY(800px);
+    scale: 1.9;
+    }
+    100%{
+      transform: translateY(-500px);
+      scale: 0.7;
+    }
+}
